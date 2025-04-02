@@ -6,14 +6,14 @@ return {
 		local lazy_status = require("lazy.status") -- to configure lazy pending updates count
 
 		local colors = {
-			blue = "#65D1FF",
-			green = "#3EFFDC",
-			violet = "#FF61EF",
+			blue = "#80a0ff",
+			green = "#79dac8",
+			violet = "#d183e8",
 			yellow = "#FFDA7B",
 			red = "#FF4A4A",
-			fg = "#c3ccdc",
+			fg = "#c6c6c6",
 			bg = "#111111",
-			inactive_bg = "#2c3043",
+			inactive_bg = "#303030",
 		}
 
 		local my_lualine_theme = {
@@ -51,6 +51,7 @@ return {
 
 		-- configure lualine with modified theme
 		lualine.setup({
+			--    lualine setup
 			options = {
 				theme = my_lualine_theme,
 			},
