@@ -24,9 +24,9 @@ opt.cursorline = false
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
---vim.g.nightflyTransparent = true
+-- vim.g.nightflyTransparent = true
 
---backsapce 
+--backsapce
 opt.backspace = "indent,eol,start"
 
 --clipboard

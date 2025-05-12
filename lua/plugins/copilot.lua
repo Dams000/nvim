@@ -14,7 +14,7 @@ return {
 		-- Optional: Disable Copilot in specific file types
 		vim.g.copilot_filetypes = {
 			["*"] = true,
-			markdown = false,
+			-- markdown = false,
 			-- text = false,
 		}
 	end,
